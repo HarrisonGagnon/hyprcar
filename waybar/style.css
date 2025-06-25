@@ -1,0 +1,136 @@
+/* @define-color bg0 #212121; */
+/*@define-color bg1 #353535;*/
+/*@define-color bg1 rgba(33,33,33,0.8);*/
+@define-color bg1 #212121;
+@define-color fg0 #eeffff;
+@define-color yellow #ffcb6b;
+
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: FontAwesome, MartianMono NF, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  min-height: 0;
+  border-color: @bg1;
+}
+
+#workspaces {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 4px;
+
+  margin: 4px 4px 0px 4px;
+}
+
+#workspaces button {
+  color: @fg0;
+  border-radius: 18px;
+}
+
+#workspaces button.active {
+  color: @yellow;
+}
+
+#window {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 16px;
+  margin: 4px 4px 0px 4px;
+}
+
+window#waybar {
+  /* background-color: @bg0; */
+  background-color: transparent;
+  color: @fg0; /* didn't affect workspaces */
+}
+
+window#waybar.empty #window {
+  /* hide empty module */
+  background-color: transparent;
+}
+
+#clock {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 16px;
+  margin: 4px 4px 0px 4px;
+}
+
+#tray {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 16px;
+  margin: 4px 4px 0px 4px;
+}
+
+#hw {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 16px;
+  margin: 4px 4px 0px 4px;
+}
+
+#cpu {
+  margin: 0px 4px;
+}
+
+#memory {
+  margin: 0px 4px;
+}
+
+#battery {
+  margin-right: 4px;
+  margin: 0px 4px;
+}
+
+#temperature {
+  margin: 0px 4px;
+  margin-right: 0;
+}
+
+#control {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 16px;
+  margin: 4px 4px 0px 4px;
+}
+
+#network {
+  margin: 0px 4px;
+}
+
+#bluetooth {
+  margin: 0px 4px;
+}
+
+#pulseaudio {
+  margin: 0px 4px;
+}
+
+#backlight {
+  margin: 0px 4px;
+}
+
+#idle_inhibitor {
+  margin: 0px 4px;
+}
+
+#language {
+  margin: 0px 4px;
+}
+
+#keyboard-state {
+  margin: 0px 4px;
+}
+
+#power {
+  margin: 0px 4px;
+  margin-right: 0;
+}
+
+#custom-notification {
+  background-color: @bg1;
+  border-radius: 18px;
+  padding: 0px 16px;
+  margin: 4px 4px 0px 4px;
+}
