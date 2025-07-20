@@ -44,6 +44,7 @@
 			"title<.*Picture-in-Picture.*>": " ",
 			"title<.*youtube.*>": " ",
 			"title<.*tidal.*>": " ",
+			"title<.*discord.*>": " ",
 			"title<.*github.*>": " ",
 			"title<.*vim.*>": " ",
 			"title<.*figma.*>": " ",
