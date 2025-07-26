@@ -1,11 +1,12 @@
-# Ignore other all configuration files
+# Ignore all files
 /*
-!.gitignore
 
 # Exceptions
+!.gitignore
+!README.md
+!install.sh
 !hypr/
 !waybar/
 !rofi/
 !btop/
 !kitty/
-!install.sh
